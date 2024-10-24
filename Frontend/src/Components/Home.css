@@ -1,0 +1,407 @@
+  * {
+  margin: 0;
+  padding:0;
+
+}
+
+.home-page-section{
+  margin-top:50px;
+  background:linear-gradient(to right , #066c21d6 , #066c21d6 , #066c21d6 , #066c21d6 , #066c21d6);
+
+}
+
+.homeData {
+  padding:162px 32px;
+}
+
+.homeImg {
+  padding:162px 32px;
+}
+
+.homeDes {
+  color:  #84CF81;
+  margin: 0px 0px 0px 24px;
+  font-family:"Roboto ui-sans-serif system-ui";
+  font-size:14px;
+}
+  
+.homeHeading {
+  font-size:60px;
+  font-family: "Montserrat" , "Arial", "Helvetica", "sans-serif" , "Times New Roman", "Georgia", "serif";
+  font-weight:bold;
+  color:#ffffff;
+}
+
+.homePara {
+  font-size:18px;
+  font-family:"Roboto", "ui-sans-serif", "system-ui" , "Arial";
+  color:#CBD5E1;
+}
+
+.homeButton {
+  color:#ffffff;
+  background-color:#4CAF50;
+  font-family:"Roboto", "ui-sans-serif", "system-ui" , "Arial";
+  border-width:0px;
+  font-size:16px;
+  
+  border-radius:8px;
+  padding: 8px 24px;
+  font-weight:600;
+}
+
+.work-section,
+.key-feature {
+  background-color:#EBFFE8;
+}
+
+
+.kf-image {
+  height:290px;
+  width:350px;
+  border-radius:10px;
+}
+.work-section-card{
+  padding-top:80px;
+}
+.work-image {
+  height:320px;
+  width:500px;
+  border-radius:10px;
+}
+.kf-para {
+  color:#334155;
+  font-size:18px;
+  font-family:"Roboto", "ui-sans-serif", "system-ui" , "Arial";
+  padding-top:80px;
+}
+
+.kf-heading {
+  font-family:"Montserrat" , "Roboto", "ui-sans-serif", "system-ui" , "Arial";
+  color:#0F172A;
+  font-size:32px;
+  font-weight:500;
+  padding:0px 32px;
+  padding-top:20px;
+}
+
+.kf-h{
+  color:#0F172A;
+  font-size:24px;
+  font-family:"Roboto", "ui-sans-serif", "system-ui" , "Arial";
+  font-weight:600;
+}
+
+.kf-p {
+  color:#0F172A;
+  font-size:16px;
+  font-family:"Roboto", "ui-sans-serif", "system-ui" , "Arial";
+}
+
+
+.work-heading {
+  color:#0F172A;
+  font-size:42px;
+  font-family:"Montserrat" , "Roboto", "ui-sans-serif", "system-ui" , "Arial";
+  font-weight:600;
+}
+
+.work-para {
+  color:#475569;
+  font-size:20px;
+  font-family:"Roboto", "ui-sans-serif", "system-ui" , "Arial";
+}
+
+.span {
+  height:60px;
+  width:80px;
+  border-radius:50%;
+  background-color:#4CAF50;
+  padding:15px;
+  color:#ffffff;
+  font-weight:bold;
+}
+
+.hr {
+  margin-left:20px;
+  width: 100%;
+  border: 1px solid #475569;
+}
+
+
+.card-heading {
+  color:#0F172A;
+  font-size:18px;
+  font-family:"Montserrat" , "Roboto", "ui-sans-serif", "system-ui" , "Arial";
+  font-weight:600;
+  margin-top:30px;
+}
+
+.card-para {
+  color:#475569;
+  font-size:16px;
+  font-family:"Roboto", "ui-sans-serif", "system-ui" , "Arial";
+  margin-top:20px;
+}  
+
+
+ /* * {
+  margin: 0;
+  padding: 0;
+}
+
+.home-page-section {
+  margin-top: 50px;
+  background: linear-gradient(to right, #066c21d6, #066c21d6, #066c21d6, #066c21d6, #066c21d6);
+}
+
+.homeData {
+  padding: 162px 32px;
+}
+
+.homeImg {
+  padding: 162px 32px;
+}
+
+.homeDes {
+  color: #84CF81;
+  margin: 0px 0px 0px 24px;
+  font-family: "Roboto ui-sans-serif system-ui";
+  font-size: 14px;
+}
+
+.homeHeading {
+  font-size: 60px;
+  font-family: "Montserrat", "Arial", "Helvetica", "sans-serif", "Times New Roman", "Georgia", "serif";
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.homePara {
+  font-size: 18px;
+  font-family: "Roboto", "ui-sans-serif", "system-ui", "Arial";
+  color: #CBD5E1;
+}
+
+.homeButton {
+  color: #ffffff;
+  background-color: #4CAF50;
+  font-family: "Roboto", "ui-sans-serif", "system-ui", "Arial";
+  border-width: 0px;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 8px 24px;
+  font-weight: 600;
+}
+
+.work-section,
+.key-feature {
+  background-color: #EBFFE8;
+}
+
+.kf-image {
+  height: 180px;
+  width: 260px;
+  border-radius: 10px;
+}
+
+.work-section-card {
+  padding-top: 80px;
+}
+
+.work-image {
+  height: 320px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.kf-para {
+  color: #334155;
+  font-size: 18px;
+  font-family: "Roboto", "ui-sans-serif", "system-ui", "Arial";
+  padding-top: 80px;
+}
+
+.kf-heading {
+  font-family: "Montserrat", "Roboto", "ui-sans-serif", "system-ui", "Arial";
+  color: #0F172A;
+  font-size: 32px;
+  font-weight: 500;
+  padding: 0px 32px;
+  padding-top: 20px;
+}
+
+.kf-h {
+  color: #0F172A;
+  font-size: 24px;
+  font-family: "Roboto", "ui-sans-serif", "system-ui", "Arial";
+  font-weight: 600;
+}
+
+.kf-p {
+  color: #0F172A;
+  font-size: 16px;
+  font-family: "Roboto", "ui-sans-serif", "system-ui", "Arial";
+}
+
+.work-heading {
+  color: #0F172A;
+  font-size: 42px;
+  font-family: "Montserrat", "Roboto", "ui-sans-serif", "system-ui", "Arial";
+  font-weight: 600;
+}
+
+.work-para {
+  color: #475569;
+  font-size: 20px;
+  font-family: "Roboto", "ui-sans-serif", "system-ui", "Arial";
+}
+
+.span {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #4CAF50;
+  padding: 15px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.hr {
+  margin-left: 20px;
+  width: 300px;
+  border: 1px solid #475569;
+}
+
+.card-heading {
+  color: #0F172A;
+  font-size: 18px;
+  font-family: "Montserrat", "Roboto", "ui-sans-serif", "system-ui", "Arial";
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.card-para {
+  color: #475569;
+  font-size: 16px;
+  font-family: "Roboto", "ui-sans-serif", "system-ui", "Arial";
+  margin-top: 20px;
+}
+
+@media (max-width: 992px) {
+  .homeImg,
+  .homeData {
+    padding: 100px 16px;
+  }
+
+  .homeHeading {
+    font-size: 40px;
+  }
+
+  .homePara {
+    font-size: 16px;
+  }
+
+  .kf-h {
+    font-size: 22px;
+  }
+
+  .kf-image,
+  .work-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .kf-heading {
+    font-size: 28px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .home-page-section {
+    flex-direction: column;
+  }
+
+  .homeData,
+  .homeImg {
+    padding: 50px 16px;
+  }
+
+  .homeHeading {
+    font-size: 34px;
+  }
+
+  .kf-para {
+    font-size: 16px;
+  }
+
+  .work-section {
+    flex-direction: column;
+  }
+
+  .kf-image,
+  .work-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .homeHeading {
+    font-size: 24px;
+  }
+
+  .homePara {
+    font-size: 14px;
+  }
+
+  .homeButton {
+    font-size: 14px;
+    padding: 6px 16px;
+  }
+
+  .kf-h {
+    font-size: 18px;
+  }
+
+  .kf-p {
+    font-size: 14px;
+  }
+
+  .kf-heading {
+    font-size: 24px;
+  }
+
+  .kf-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .work-heading {
+    font-size: 28px;
+  }
+
+  .work-para {
+    font-size: 16px;
+  }
+
+  .span {
+    width: 150px;
+    height: 150px;
+    font-size: 18px;
+  }
+
+  .hr {
+    width: 150px;
+  }
+
+  .card-heading {
+    font-size: 16px;
+  }
+
+  .card-para {
+    font-size: 14px;
+  }
+}  */
